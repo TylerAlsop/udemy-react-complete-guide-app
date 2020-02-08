@@ -9,8 +9,7 @@ const App = props => {
       { name: "Eric", age: 27 },
       { name: "Rufus", age: 46 },
       { name: "Aimee", age: 28 },
-    ],
-    otherState: "Some other value"
+    ]
   });
 
   const switchNameHandler = () => {
