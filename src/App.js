@@ -18,10 +18,10 @@ const App = props => {
       <h1>First Change To App</h1>
       <button onClick={this.switchNameHandler}>Switch Name</button>
 
-      <Person name={this.state.persons[0].name} age={this.state.persons[0].age} />
-      <Person name={this.state.persons[1].name} age={this.state.persons[1].age} />
-      <Person name={this.state.persons[3].name} age={this.state.persons[3].age}>I like to code.</Person>
-      <Person name={this.state.persons[2].name} age={this.state.persons[2].age} />
+      <Person name={personsState.persons[0].name} age={personsState.persons[0].age} />
+      <Person name={personsState.persons[1].name} age={personsState.persons[1].age} />
+      <Person name={personsState.persons[3].name} age={personsState.persons[3].age}>I like to code.</Person>
+      <Person name={personsState.persons[2].name} age={personsState.persons[2].age} />
       
 
 
